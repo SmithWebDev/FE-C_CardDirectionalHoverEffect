@@ -34,7 +34,9 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
     overflow: hidden;
-    transform-style: preserve-3d; }
+    transform-style: preserve-3d;
+    margin-bottom: 15px;
+    margin-top: 15px; }
     .container .card:hover {
       transform: perspective(500px) rotateY(0deg); }
     .container .card:hover ~ .card {
